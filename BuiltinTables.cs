@@ -59,7 +59,7 @@ namespace Lottery {
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.20, ItemID.WoodenCrate, 1, 5),
                                     new Prize (0.45, ItemID.IronCrate, 1, 3),
-                                    new Prize (0.17, ItemID.GoldenCrate, 1));
+                                    new Prize (0.17, ItemID.GoldenCrate, 1)),
                                     new Prize (0.03, ItemID.CorruptCrate, 1)),
                                     new Prize (0.03, ItemID.CrimsonCrate, 1)),
                                     new Prize (0.03, ItemID.DungeonCrate, 1)),
@@ -107,7 +107,7 @@ namespace Lottery {
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.20, ItemID.WoodenCrate, 1, 5),
                                     new Prize (0.35, ItemID.IronCrate, 1, 3),
-                                    new Prize (0.20, ItemID.GoldenCrate, 1));
+                                    new Prize (0.20, ItemID.GoldenCrate, 1)),
                                     new Prize (0.05, ItemID.CorruptCrate, 1)),
                                     new Prize (0.05, ItemID.CrimsonCrate, 1)),
                                     new Prize (0.05, ItemID.DungeonCrate, 1)),
