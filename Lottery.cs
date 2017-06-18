@@ -33,7 +33,8 @@ namespace Lottery {
         private static void AddBuiltinTables() {
             Lottery.AddTable("easymode", 0.33, () => true, BuiltinTables.BuildEasymode());
             Lottery.AddTable("hardmode", 0.33, () => Main.hardMode, BuiltinTables.BuildHardmode());
-        }
+            Lottery.AddTable("expertmode", 0.33, () => Main.expertMode, BuiltinTables.BuildExpertmode());
+       }
 
         // Call interface for modders
 
